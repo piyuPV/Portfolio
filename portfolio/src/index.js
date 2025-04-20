@@ -15,19 +15,3 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
-
-// Add intersection observer for section animations
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('visible');
-    }
-  });
-}, { threshold: 0.1 });
-
-// Observe all sections
-document.addEventListener('DOMContentLoaded', () => {
-  document.querySelectorAll('section').forEach((section) => {
-    observer.observe(section);
-  });
-});
