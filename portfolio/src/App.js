@@ -107,7 +107,7 @@ function App() {
             </div>
           </div>
           <div className="project-card">
-            <h3>Smart Healthcare System</h3>
+            <h3>EEG analysis</h3>
             <p>Developed an AI-powered healthcare system for early disease detection using patient data.</p>
             <div className="tech-stack">
               <span>TensorFlow</span>
